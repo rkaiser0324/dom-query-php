@@ -96,8 +96,8 @@ class Loader {
 
     protected static $_static_data = array();
 
-    public static function init($prependPaths = array()) {
-        static::setErrorReporting(!PRODUCTION);
+    public static function init($prependPaths = array(), $show_errors = true) {
+        static::setErrorReporting($show_errors);
         static::_synchPaths(true);
         static::appendLoader(get_called_class(), 'load');
         static::prependPaths($prependPaths);
@@ -105,7 +105,7 @@ class Loader {
 
     public static function setErrorReporting($enable = true) {
         if ($enable) {
-            error_reporting(E_ALL ^ E_NOTICE);
+            error_reporting(E_ALL & ~E_USER_DEPRECATED);
             ini_set('display_errors', 1);
         } else {
             error_reporting(0);
