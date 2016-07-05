@@ -22,6 +22,7 @@
             "PowerTools\\": "src/PowerTools/"
         }
     },
+    "minimum-stability": "dev",
     "repositories": [
         {
             "url": "https://github.com/rkaiser0324/HTML5",
