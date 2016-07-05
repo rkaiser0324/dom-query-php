@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.4.0",
         "symfony/css-selector": "2.*",
-        "powertools/html5": "dev-master#4ea8caf5b2618a82ca5061dcbb7421b31065c1c7"
+        "powertools/html5": "dev-master"
     },
     "target-dir": "PowerTools/DOM-Query",
     "autoload": {
