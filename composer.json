@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.4.0",
         "symfony/css-selector": "2.*",
-        "rkaiser0324/html5": "dev-master"
+        "rkaiser0324/html5": "1.*"
     },
     "target-dir": "PowerTools/DOM-Query",
     "autoload": {
@@ -22,7 +22,6 @@
             "PowerTools\\": "src/PowerTools/"
         }
     },
-    "minimum-stability": "dev",
     "repositories": [
         {
             "url": "https://github.com/rkaiser0324/HTML5",
