@@ -14,7 +14,7 @@
     "require": {
         "php": ">=5.4.0",
         "symfony/css-selector": "2.*",
-        "rkaiser0324/html5": "1.0.0"
+        "rkaiser0324/html5": "@dev"
     },
     "target-dir": "PowerTools/DOM-Query",
     "autoload": {
