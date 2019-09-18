@@ -1,8 +1,8 @@
 {
-    "name": "rkaiser0324/dom-query",
+    "name": "rkaiser0324/dom-query-php",
     "type": "library",
-    "description": "PHP PowerTools DOM-Query Component",
-    "homepage": "https://github.com/PHPPowertools/DOM-Query",
+    "description": "PHP PowerTools DOM-Query Component, modified from https://github.com/PHPPowertools/DOM-Query",
+    "homepage": "https://github.com/rkaiser0324/dom-query-php",
     "license": "MIT",
     "authors": [
         {
