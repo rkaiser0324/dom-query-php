@@ -110,7 +110,7 @@ class DOM_Document extends \DOMDocument {
             if (strpos($data_start, '<!DOCTYPE ') === 0 || strpos($data_start, '<html>') === 0) {
                 $html5->loadHTML($data);
             } else {
-                @$this->loadHTML('<!DOCTYPE html><html><head><meta charset="' . $encoding . '" /></head><body></body></html>');
+                @$this->loadHTML('<!DOCTYPE html><html><head><meta charset="' . $this->encoding . '" /></head><body></body></html>');
                 $t = $html5->loadHTMLFragment($data);
                 $docbody = $this->getElementsByTagName('body')->item(0);
                 while ($t->hasChildNodes()) {
